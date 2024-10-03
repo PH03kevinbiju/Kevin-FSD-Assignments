@@ -27,7 +27,7 @@ class MinMax:
     def max(self, m2):
         for i in range(3):
             for j in range(3):
-                if m2[i][j] == '0':
+                if m2[i][j] == '0':l
                     m2[i][j] = '1'
         print("matrix after max operation:")
         print(m2)
