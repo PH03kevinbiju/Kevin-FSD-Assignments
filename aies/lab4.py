@@ -64,7 +64,7 @@ def unify(S1, S2):
 
 # Example usage
 try:
-    result = unify(['parent', 'X', 'Y'], ['parent', 'alice', 'Y'])
+    result = unify(['parent', 'X', 'Y'], ['parent', 'kevin', 'Y'])
     print(result)
 except Failure:
     print("FAILURE")
